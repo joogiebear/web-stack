@@ -840,7 +840,7 @@ ${YELLOW}FILE LOCATIONS:${NC}
 
 ${YELLOW}SUPPORT:${NC}
 
-  Documentation: https://github.com/yourusername/webstack
+  Documentation: https://github.com/joogiebear/web-stack
   Issues: Report bugs and request features on GitHub
 
 EOF

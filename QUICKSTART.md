@@ -6,7 +6,7 @@ Get your first site running in 5 minutes!
 
 ```bash
 # Download the installer
-wget https://raw.githubusercontent.com/yourusername/webstack/main/webstack-install.sh
+wget https://raw.githubusercontent.com/joogiebear/web-stack/main/webstack-install.sh
 
 # Make executable
 chmod +x webstack-install.sh
@@ -248,7 +248,7 @@ cat /opt/webstack/sites/mysite/.env
 
 - Read the full [README.md](README.md)
 - Check [Troubleshooting Guide](README.md#troubleshooting)
-- Open an [issue on GitHub](https://github.com/yourusername/webstack/issues)
+- Open an [issue on GitHub](https://github.com/joogiebear/web-stack/issues)
 
 ---
 

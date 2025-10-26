@@ -48,7 +48,7 @@ WebStack Manager is a powerful, production-ready tool for managing multiple isol
 
 ```bash
 # Download the installer
-wget https://raw.githubusercontent.com/yourusername/webstack/main/webstack-install.sh
+wget https://raw.githubusercontent.com/joogiebear/web-stack/main/webstack-install.sh
 
 # Make it executable
 chmod +x webstack-install.sh
@@ -553,9 +553,9 @@ A: Absolutely! This is designed for production use with automatic SSL, monitorin
 
 ## Support
 
-- **Documentation**: [Full documentation](https://github.com/yourusername/webstack/wiki)
-- **Issues**: [Report bugs](https://github.com/yourusername/webstack/issues)
-- **Discussions**: [Community forum](https://github.com/yourusername/webstack/discussions)
+- **Documentation**: [Full documentation](https://github.com/joogiebear/web-stack/wiki)
+- **Issues**: [Report bugs](https://github.com/joogiebear/web-stack/issues)
+- **Discussions**: [Community forum](https://github.com/joogiebear/web-stack/discussions)
 
 ## Contributing
 

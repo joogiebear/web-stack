@@ -27,14 +27,14 @@ Before installing, ensure your server meets these requirements:
 ### Method 1: One-Line Installation (Recommended)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yourusername/webstack/main/webstack-install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/joogiebear/web-stack/main/webstack-install.sh | sudo bash
 ```
 
 ### Method 2: Manual Installation
 
 1. **Download the installer:**
    ```bash
-   wget https://raw.githubusercontent.com/yourusername/webstack/main/webstack-install.sh
+   wget https://raw.githubusercontent.com/joogiebear/web-stack/main/webstack-install.sh
    ```
 
 2. **Make it executable:**
@@ -50,8 +50,8 @@ curl -fsSL https://raw.githubusercontent.com/yourusername/webstack/main/webstack
 ### Method 3: From Git Repository
 
 ```bash
-git clone https://github.com/yourusername/webstack.git
-cd webstack
+git clone https://github.com/joogiebear/web-stack.git
+cd web-stack
 sudo ./webstack-install.sh
 ```
 
@@ -245,7 +245,7 @@ sudo iptables-save > /etc/iptables/rules.v4
 
 ```bash
 ssh root@your-droplet-ip
-curl -fsSL https://raw.githubusercontent.com/yourusername/webstack/main/webstack-install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/joogiebear/web-stack/main/webstack-install.sh | bash
 ```
 
 ### AWS EC2
@@ -259,7 +259,7 @@ curl -fsSL https://raw.githubusercontent.com/yourusername/webstack/main/webstack
 ```bash
 ssh -i your-key.pem ubuntu@your-ec2-ip
 sudo su
-curl -fsSL https://raw.githubusercontent.com/yourusername/webstack/main/webstack-install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/joogiebear/web-stack/main/webstack-install.sh | bash
 ```
 
 ### Linode
@@ -271,7 +271,7 @@ curl -fsSL https://raw.githubusercontent.com/yourusername/webstack/main/webstack
 
 ```bash
 ssh root@your-linode-ip
-curl -fsSL https://raw.githubusercontent.com/yourusername/webstack/main/webstack-install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/joogiebear/web-stack/main/webstack-install.sh | bash
 ```
 
 ### Vultr
@@ -283,7 +283,7 @@ curl -fsSL https://raw.githubusercontent.com/yourusername/webstack/main/webstack
 
 ```bash
 ssh root@your-vultr-ip
-curl -fsSL https://raw.githubusercontent.com/yourusername/webstack/main/webstack-install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/joogiebear/web-stack/main/webstack-install.sh | bash
 ```
 
 ## Offline Installation
@@ -296,7 +296,7 @@ If your server doesn't have internet access, you can prepare an offline installa
    apt download docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
    # Download webstack
-   git clone https://github.com/yourusername/webstack.git
+   git clone https://github.com/joogiebear/web-stack.git
    ```
 
 2. **Transfer to offline server**
@@ -307,7 +307,7 @@ If your server doesn't have internet access, you can prepare an offline installa
    dpkg -i *.deb
 
    # Run webstack installer
-   cd webstack
+   cd web-stack
    ./webstack-install.sh
    ```
 
@@ -409,7 +409,7 @@ To upgrade WebStack to the latest version:
 
 ```bash
 # Download latest installer
-wget https://raw.githubusercontent.com/yourusername/webstack/main/webstack-install.sh
+wget https://raw.githubusercontent.com/joogiebear/web-stack/main/webstack-install.sh
 
 # Run installer (it will detect existing installation)
 sudo ./webstack-install.sh
@@ -433,7 +433,7 @@ If you encounter issues during installation:
    ```
 
 3. **Report an issue:**
-   - GitHub Issues: https://github.com/yourusername/webstack/issues
+   - GitHub Issues: https://github.com/joogiebear/web-stack/issues
    - Include: OS version, error messages, installation logs
 
 ## Next Steps
